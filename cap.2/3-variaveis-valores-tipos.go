@@ -4,10 +4,11 @@ import (
 	"fmt"
 )
 
+// declarando e inicializando variavel a nivel package scope
 var y = "olá bom dia"
 
 func main() {
-
+		// declarando e inicializando variavel x a nivel function scope
 		x := 10
 
 		fmt.Printf("x: %v, %T\n", x, x)
